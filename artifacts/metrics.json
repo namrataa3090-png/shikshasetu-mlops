@@ -1,0 +1,63 @@
+{
+  "dataset": "UCI Student Performance",
+  "target": "G3 < 10",
+  "excluded_features": [
+    "G1",
+    "G2",
+    "G3",
+    "at_risk"
+  ],
+  "feature_count": 30,
+  "train_rows": 519,
+  "test_rows": 130,
+  "positive_rate_test": 0.15384615384615385,
+  "dummy_baseline": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0
+  },
+  "logistic_regression": {
+    "precision": 0.35294117647058826,
+    "recall": 0.6,
+    "f1": 0.4444444444444444,
+    "pr_auc_average_precision": 0.33991473453463467,
+    "roc_auc": 0.775909090909091,
+    "confusion_matrix": [
+      [
+        88,
+        22
+      ],
+      [
+        8,
+        12
+      ]
+    ]
+  },
+  "classification_report": {
+    "0": {
+      "precision": 0.9166666666666666,
+      "recall": 0.8,
+      "f1-score": 0.8543689320388349,
+      "support": 110.0
+    },
+    "1": {
+      "precision": 0.35294117647058826,
+      "recall": 0.6,
+      "f1-score": 0.4444444444444444,
+      "support": 20.0
+    },
+    "accuracy": 0.7692307692307693,
+    "macro avg": {
+      "precision": 0.6348039215686274,
+      "recall": 0.7,
+      "f1-score": 0.6494066882416396,
+      "support": 130.0
+    },
+    "weighted avg": {
+      "precision": 0.8299396681749622,
+      "recall": 0.7692307692307693,
+      "f1-score": 0.7913036262550825,
+      "support": 130.0
+    }
+  }
+}
