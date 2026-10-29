@@ -20,3 +20,21 @@ __pycache__/
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+
+# Node.js and frontend build output
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Python build and coverage output
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# Local environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
